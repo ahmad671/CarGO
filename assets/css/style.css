@@ -86,14 +86,14 @@ section{
   background: linear-gradient(135deg,#00a1f2 0%,#277ffe 80%);
   padding: 12px 30px;
 }
-a:hover{
-  text-decoration: none;
-}
 a {
   margin: 0%;
   padding: 0%;
  -webkit-transition: 0.5s all ease;
    transition: 0.5s all ease; 
+}
+a:hover{
+  text-decoration: none;
 }
 .form-control{
   height: 50px;
@@ -250,8 +250,6 @@ p {
 .header-icons a:hover{
   background-color: var(--blue-color);
   border-color: var(--blue-color);
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
 }
 
 #mynav{
@@ -2120,8 +2118,6 @@ color: var(--blue-color);
   color: var(--white-color);
   border-color: var(--blue-color);
   background-color: var(--blue-color);
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
 
 }
 
