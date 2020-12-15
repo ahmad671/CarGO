@@ -209,13 +209,23 @@
   .address-item{
     margin-top: 30px;
   }
-  .mobile-nav{
-    visibility: visible;
-
-}
-#d-navbar{
+  #d-navbar{
     visibility: hidden;
     display: none;
+}
+  .mobile-nav{
+    visibility: visible;
+}
+.header-logo{
+  visibility: hidden;
+  display: none;
+}
+.header-icons{
+  visibility: hidden;
+  display: none;
+}
+.header-mail{
+  padding-top: 0%!important;
 }
 }
 @media only screen and (max-width:520px){

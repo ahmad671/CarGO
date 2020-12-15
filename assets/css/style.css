@@ -40,10 +40,10 @@ This files table contents are outlined below>>>>>
                     Default CSS
     ================================================
     ================================================  */
-    :root {
-      --white-color: #ffffff;
-      --blue-color: #0088cc;
-      --black-color: #212529;
+:root {
+  --white-color: #ffffff;
+  --blue-color: #0088cc;
+  --black-color: #212529;
     
   }    
 html{
@@ -169,6 +169,7 @@ p {
                     Start Header
     ================================================
     ================================================  */
+    
 #navb{
   background-color: var(--black-color);
 }
@@ -1430,7 +1431,7 @@ color: var(--blue-color);
   color: var(--blue-color);
   font-size: 55px;
   margin-right: 20px;
-  border: 2px solid black;
+  border: 2px solid var(--blue-color);
   border-radius: 50%;
   padding: 6px;
 }
@@ -1447,22 +1448,7 @@ color: var(--blue-color);
                    Start Blog Section
     ================================================
     ================================================  */
-
-.main-blog{
-  border: 1px solid rgb(220, 223, 230);
-  margin-bottom: 30px;
-  border-radius: 30px;
-}
-.main-blog-icons{
-  color: rgb(255, 255, 255) ;
-}
-.blog-one{
-  border: 1px solid rgb(220, 223, 230);
-  margin-bottom: 30px;
-  border-radius: 30px;
-  box-shadow: 0 0 5px 0 #d0d0d0;
-}
-.blog-two{
+.blog{
   border: 1px solid rgb(220, 223, 230);
   margin-bottom: 30px;
   border-radius: 30px;
@@ -1476,46 +1462,8 @@ color: var(--blue-color);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
-.main-blog img{
-  border-radius: 30px;
-}
-.blog{
-  border-radius: 30px;
-  box-shadow: 0 0 5px 0 #d0d0d0;
-}
 .blogs-icons{
   color: var(--blue-color) ;
-}
-
-.main-blog-text{
-  background-image: url(../images/black-images-21.jpg);
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  opacity: 0.8;
-  color: var(--white-color);;
-  padding: 7%;
-  position: absolute;
-  bottom: 30px;
-  left: 16px;
-  right: 16px;
-}
-.main-namedate{
-  padding-bottom: 20px;
-  font-size: 18px;
-}
-.main-text-heading h4{
-  display: block;
-  color: var(--white-color);
-  text-decoration: none;
-  border-top: 1px solid;
-  border-color: rgb(220, 223, 230);
-  padding-top: 20px;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-.main-text-heading p{
-  color: var(--white-color);
-  font-size: 15px;
 }
 .blog-text{
   padding: 0 20px;
@@ -1534,6 +1482,8 @@ color: var(--blue-color);
   padding: 20px 0;
 }
 .blog-btn{
+  background: none;
+  color: var(--black-color);
   margin-bottom: 20px;
   margin-left: 20px;
   padding: 8px 12px;
@@ -1552,10 +1502,6 @@ color: var(--blue-color);
     ================================================
     ================================================  */
 
-.blog{
-  border: 1px solid rgb(220, 223, 230);
-  margin-bottom: 30px;
-}
 #blog-page{
   padding-bottom: 70px;
 }
