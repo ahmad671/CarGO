@@ -134,7 +134,7 @@ p {
 .loader{
 	width: 100px;
 	height: 100px;
-	top: calc(50vh - 50px);
+	top: calc(50vh - 75px);
 	left: calc(50vw - 50px);
 	display: flex;
 	position: absolute;
@@ -151,9 +151,6 @@ p {
 	border: 20px ridge;
 	border-width: 40px;
   border-color: var(--blue-color) transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
 	animation: load 1s infinite;
 }
 
